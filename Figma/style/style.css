@@ -55,6 +55,23 @@ body {
     color: #49ad09;
 }
 
+.section-subtitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #514040;
+    font-size: 18px;
+    margin-bottom: 38px;
+}
+
+.section-title {
+    font-size: 45px;
+    color: #313131;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 500;
+}
+
 /* Header */
 
 .header {
@@ -164,4 +181,80 @@ body {
     border-width: 4px;
     border-color: transparent #514040 #514040 transparent;
     transform: rotate(-45deg) translateY(-50%);
+}
+
+/* Sponsors */
+
+.sponsors {
+    position: relative;
+}
+
+.sponsors .particle {
+    top: -130px;
+    z-index: -1;
+}
+
+.sponsors__inner {
+    padding-top: 80px;
+    padding-bottom: 220px;
+}
+
+.sponsors__list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Specialization */
+
+.specialization {
+    position: relative;
+    padding-bottom: 140px;
+}
+
+.specialization .particle {
+    top: 100px;
+}
+
+.specialization__cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.specialization__card {
+    padding: 40px 30px;
+    flex-basis: 50%;
+    max-width: 384px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+}
+
+.specialization__card:hover {
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+}
+
+.specialization__card-head {
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 32px;
+}
+
+.specialization__card-logo {
+    height: 100%;
+}
+
+.specialization__card-title {
+    font-size: 22px;
+    color: #313131;
+    font-weight: 500;
+}
+
+.specialization__card-description {
+    font-size: 18px;
+    color: #514040;
+    margin-bottom: 30px;
 }
