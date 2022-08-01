@@ -258,3 +258,142 @@ body {
     color: #514040;
     margin-bottom: 30px;
 }
+
+/* Portfolio */
+
+.portfolio {
+    position: relative;
+    padding-bottom: 140px;
+}
+
+.portfolio__link {
+    text-decoration: none;
+    color: #49ad09;
+    font-size: 18px;
+}
+
+.portfolio__cards {
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.portfolio__column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    row-gap: 70px;
+}
+
+.portfolio__column:first-child {
+    margin-top: 0;
+}
+
+.portfolio__card {
+    max-width: 480px;
+    width: 100%;
+}
+
+.portfolio__card-image {
+    width: 100%;
+}
+
+.portfolio__card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.portfolio__card-title {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+/* Testinonials */
+
+.testinonials__inner {
+    position: relative;
+    padding-bottom: 140px;
+}
+
+.testinonials__slider {
+    background-color: #f2f2f2;
+    padding: 30px 0;
+    margin: 0 80px;
+    position: relative;
+    height: 540px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testinonials__list {
+    display: flex;
+    column-gap: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testinonials__slide {
+    flex-shrink: 0;
+    background-color: #fff;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1);
+    padding: 40px 32px;
+    width: 380px;
+}
+
+.testinonials__feedback-title {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #32435c;
+}
+
+.testinonials__feedback-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6a635b;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.testinonials__rating {
+    display: flex;
+    row-gap: 3px;
+    margin-bottom: 20px;
+}
+
+.star {
+width: 18px;
+height: 18px;
+}
+
+.testinonials__author {
+    font-weight: 600;
+    font-size: 14px;
+    color: #32435c;
+}
+
+.testinonials__slider-controls {
+    padding: 8px;
+    border-radius: 70px;
+    background-color: #fff;
+}
+
+.left-btn, .right-btn {
+    border: none;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.right-btn {
+    background-color: #313131;
+}
